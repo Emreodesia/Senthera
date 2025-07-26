@@ -44,50 +44,83 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-white">Senthera</h1>
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="project.html" class="nav-item nav-link active">Projects</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <div class="container-fluid px-4">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="text-white">Senthera</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="project.html" class="nav-item nav-link active">Projects</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-            </nav>
+            </div>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-    </div>
+    </nav>
     <!-- Navbar End -->
 
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 pb-1 bg-primary hero-header">
-        <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">Our Projects</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Our Projects</li>
-                        </ol>
-                    </nav>
+    <div class="container-fluid service-hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row g-5 align-items-center min-vh-50">
+                <div class="col-lg-8 hero-content">
+                    <div class="hero-badge animated slideInRight">
+                        <span class="badge-text">Our Projects</span>
+                    </div>
+                    <h1 class="hero-title animated slideInRight">
+                        <span class="title-line">Innovative</span>
+                        <span class="title-highlight">AI Projects</span>
+                        <span class="title-line">That Deliver Results</span>
+                    </h1>
+                    <p class="hero-description animated slideInRight">
+                        Explore our portfolio of cutting-edge AI projects that have transformed businesses and created lasting impact across industries.
+                    </p>
+                    <div class="service-grid animated slideInRight">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fa fa-heartbeat"></i>
+                            </div>
+                            <h4>Healthcare AI</h4>
+                            <p>Diagnostic systems and patient care</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fa fa-chart-line"></i>
+                            </div>
+                            <h4>Financial AI</h4>
+                            <p>Trading platforms and risk analysis</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h4>E-commerce AI</h4>
+                            <p>Recommendation engines and analytics</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 align-self-center text-center text-lg-end">
-                    <img class="img-fluid" src="img/hero-img.png" alt=""  style="max-height: 450px;
-                    margin-bottom: 68px;  max-width: 100%; object-fit: contain;">
+                <div class="col-lg-4 hero-image">
+                    <div class="service-visual animated slideInLeft">
+                        <div class="neural-network">
+                            <div class="node node-1"></div>
+                            <div class="node node-2"></div>
+                            <div class="node node-3"></div>
+                            <div class="node node-4"></div>
+                            <div class="node node-5"></div>
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,27 +202,27 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    How to build a website?
+                                    Soru1
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionFAQ1">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+									Cevap1                            
+								</div>
                             </div>
                         </div>
                         <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How long will it take to get a new website?
+                                    Soru2
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionFAQ1">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+									Cevap2
                                 </div>
                             </div>
                         </div>
@@ -197,13 +230,13 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Do you only create HTML websites?
+                                    Soru3
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionFAQ1">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                   Cevap3
                                 </div>
                             </div>
                         </div>
@@ -211,14 +244,14 @@
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Will my website be mobile-friendly?
+                                    Soru4
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionFAQ1">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+                                    Cevap4
+									</div>
                             </div>
                         </div>
                     </div>
@@ -229,56 +262,56 @@
                             <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Will you maintain my site for me?
+								Soru5
                                 </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                 data-bs-parent="#accordionFAQ2">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+                                    Cevap5
+									</div>
                             </div>
                         </div>
                         <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
                             <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    I’m on a strict budget. Do you have any low cost options?
+                                    Soru6
                                 </button>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                 data-bs-parent="#accordionFAQ2">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+                                    Cevap6
+									</div>
                             </div>
                         </div>
                         <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
                             <h2 class="accordion-header" id="headingSeven">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    Will you maintain my site for me?
+                                    Soru7
                                 </button>
                             </h2>
                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                                 data-bs-parent="#accordionFAQ2">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+                                    Cevap7
+									</div>
                             </div>
                         </div>
                         <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
                             <h2 class="accordion-header" id="headingEight">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    I’m on a strict budget. Do you have any low cost options?
+                                    Soru8
                                 </button>
                             </h2>
                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                                 data-bs-parent="#accordionFAQ2">
                                 <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
+                                   Cevap8
+								   </div>
                             </div>
                         </div>
                     </div>
@@ -305,7 +338,7 @@
                         <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
                                 class="fa fa-paper-plane text-primary fs-4"></i></button>
                     </div>
-                    <small class="text-white-50">Senthera is a technology company that leverages the opportunities offered by the age of artificial intelligence to the fullest, adding value to every aspect of life with its advanced technologies and innovative brands.</small>
+                    <small class="text-white-50">From Data to Vision, We Code the Future </small>
                 </div>
             </div>
         </div>
@@ -344,7 +377,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="text-white mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Software Engineer</a>
+                    <a class="btn btn-link" href="">Software Engineering</a>
                     <a class="btn btn-link" href="">Entrepreneurship Consulting</a>
                     <a class="btn btn-link" href="">Artificial Intelligence Consulting</a>
                     <a class="btn btn-link" href="">Business Development</a>
